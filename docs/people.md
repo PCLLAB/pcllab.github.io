@@ -70,6 +70,15 @@ hide:
     </div>
 </div>
 
+<div class="people-row">
+    <img src="../img/ananya.jpg" class="people-img">
+    <div>
+    <h2>Ananya Jajoo</h2>
+    <h4>Programmer</h4>
+    <p>I am an undergraduate in Computer Science, helping maintain the website and supporting experiments. Interested in diverse applications of computer science across various fields, from app development to machine learning and beyond.</p>
+    </div>
+</div>
+
 ## Lab Alumni
 
 [Garrett O'Day](https://www.linkedin.com/in/garrett-oday/){target="\_blank" rel="noreferrer"}<br>
