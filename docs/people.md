@@ -79,6 +79,17 @@ hide:
     </div>
 </div>
 
+<div class="people-row">
+    <img src="../img/shivanya.jpg" class="people-img">
+    <div>
+    <h2>Shivanya Chandra</h2>
+    <h4>Programmer</h4>
+    <p>I am a sophomore majoring in Computer Science and Artificial Intelligence, driven by a passion for exploring the latest advancements in technology. 
+    I am excited to contribute to the research team by assisting in new experiments and supporting various maintenance tasks, always eager to learn and grow with each opportunity
+    </p>
+    </div>
+</div>
+
 ## Lab Alumni
 
 [Garrett O'Day](https://www.linkedin.com/in/garrett-oday/){target="\_blank" rel="noreferrer"}<br>
