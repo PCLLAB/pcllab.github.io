@@ -90,6 +90,15 @@ hide:
     </div>
 </div>
 
+<div class="people-row">
+    <img src="../img/vinathi.jpg" class="people-img">
+    <div>
+    <h2>Vinathi Muthyala</h2>
+    <h4>Programmer</h4>
+    <p>I am an undergraduate in Computer Science, passionate about developing tech for social impact. I am currently supporting the research team in conducting experiments while maintaining systems to optimize performance and drive innovation.</p>
+    </div>
+</div>
+
 ## Lab Alumni
 
 [Garrett O'Day](https://www.linkedin.com/in/garrett-oday/){target="\_blank" rel="noreferrer"}<br>
