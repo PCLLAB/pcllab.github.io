@@ -15,9 +15,11 @@ hide:
 
 ## 2025
 
-- Karpicke, J. D. (2025). Retrieval-based learning. In L. Mickes (Ed.), _Cognitive psychology of memory, Vol. 2 of Learning and memory: A comprehensive reference_ (J. H. Byrne, Series Ed.) (pp. 487-514). Oxford: Academic Press. <br> [[PDF]](downloads/2017/2017_Karpicke_Retrieval_Based_Learning_Review.pdf){target="\_blank" rel="noreferrer"}
+- Karpicke, J. D. (2025). Retrieval-based learning. In L. Mickes (Ed.), _Cognitive psychology of memory, Vol. 2 of Learning and memory: A comprehensive reference_ (J. Wixted, Series Ed.). Oxford: Academic Press. 
 
-- Fordyce, A. L., Redick, T. S., Bedwell, J P., & Karpicke, J. D. (2025). Individual differences in working memory and the benefit of retrieval practice. _Journal of Memory and Language, 144_, 104664. <br> [[PDF]](downloads/2025/2025_Fordyce_et_al_JML.pdf){target="\_blank" rel="noreferrer"}
+- Fordyce, A. L., Redick, T. S., Bedwell, J. P., & Karpicke, J. D. (2025). Individual differences in working memory and the benefit of retrieval practice. _Journal of Memory and Language, 144_, 104664. <br> [[PDF]](downloads/2025/2025_Fordyce_et_al_JML.pdf){target="\_blank" rel="noreferrer"}
+
+- Souto, S., Leonard, L. B., Deevy, P., Christ, S. L., Karpicke, J. D., & Shroeder, M. L. (in press). Word learning in children with developmental language disorder: The use of retrieval practice during shared book reading. _Journal of Speech, Language, and Hearing Research._
 
 ## 2024
 
