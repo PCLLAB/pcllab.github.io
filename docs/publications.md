@@ -19,7 +19,8 @@ hide:
 
 - Fordyce, A. L., Redick, T. S., Bedwell, J. P., & Karpicke, J. D. (2025). Individual differences in working memory and the benefit of retrieval practice. _Journal of Memory and Language, 144_, 104664. <br> [[PDF]](downloads/2025/2025_Fordyce_et_al_JML.pdf){target="\_blank" rel="noreferrer"}
 
-- Souto, S., Leonard, L. B., Deevy, P., Christ, S. L., Karpicke, J. D., & Shroeder, M. L. (in press). Word learning in children with developmental language disorder: The use of retrieval practice during shared book reading. _Journal of Speech, Language, and Hearing Research._
+- Souto, S., Leonard, L. B., Deevy, P., Christ, S. L., Karpicke, J. D., & Shroeder, M. L. (2025). Word learning in children with developmental language disorder: The use of retrieval practice during shared book reading. _Journal of Speech, Language, and Hearing Research._ <br> [[PDF]](downloads/2025/2025_Souto_et_al_JSLHR_Book_Reading.pdf){target="\_blank" rel="noreferrer"}
+
 
 ## 2024
 
