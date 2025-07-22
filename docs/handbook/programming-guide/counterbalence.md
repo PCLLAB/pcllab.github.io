@@ -1,4 +1,4 @@
-# Randomized Conditions and Counterbalenced Versions
+# Randomized Conditions and Counterbalanced Versions
 
 Sometimes (especially with in-person experiments) participants will be assigned to conditions by the experimenter. Other times, we will have the program randomly assign participants to conditions. 
 
