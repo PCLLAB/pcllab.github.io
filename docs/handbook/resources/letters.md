@@ -50,5 +50,5 @@ I need you to provide me with the following things:
 ### Example Table
 | Deadline    | School                              | Department/Program              | Letter Submission Method
 |:----------- | :---------------------------------- |:------------------------------- |:------------------------- 
-| 12/01/24    | Washington University in St. Louis  | Psychological & Brain Sciences | online 
-| 12/01/24    | Purdue University                   | Psychological Sciences       | online 
+| 12/01/25    | Washington University in St. Louis  | Psychological & Brain Sciences | online 
+| 12/01/25    | Purdue University                   | Psychological Sciences       | online 
