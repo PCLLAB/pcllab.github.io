@@ -11,7 +11,7 @@ A complete list of department staff members can be found [here](https://hhs.purd
 
 | Name                  | Position/Role                      | Email                     | Office 
 | :---------------------| :--------------------------------- |:------------------------- |:-----------
-| Wendy Watson         | Cognitive Area Admin Assistant     | <wjwatson@purdue.edu>      | PRCE 369
+| Annette Wheeldon         | Cognitive Area Admin Assistant     | <acheever@purdue.edu>      | PRCE 369
 
 ### Business Office
 
