@@ -19,7 +19,7 @@ Detailed instructions can also be found on the [PSY 120 Sona pool procedures pag
 - You must add "Learning Lab" as a user in each experiment in Sona. Either now, or after the experiment is created you will also need to add the 390 students that will be running the experiment as users.
 - Make the location for your experiment the PRCE 171 Waiting Room and instruct students to wait in that room for the experimenter.
 
-## Prepare paperwork for the Sona Coordinator (currently: Darryl Schneider)
+## Prepare paperwork for the Sona Coordinator (currently: Jill Gulker)
 
 You need to prepare the following items:
 
@@ -33,6 +33,6 @@ Templates of consent forms, debriefing forms, and Sona descriptions can be found
 ## Final Steps
 
 - Make sure all information, including IRB numbers and Sona numbers, is correct on all forms.
-- Email the Sona the documents listed above to Darryl Schneider (<dws@purdue.edu>)
-- Once the experiment is approved by Darryl you will be able to post sessions on Sona.
+- Email the Sona the documents listed above to Jill Gulker (<jgulker@purdue.edu>)
+- Once the experiment is approved by Jill you will be able to post sessions on Sona.
 - At this point, you are now ready to run subjects.
