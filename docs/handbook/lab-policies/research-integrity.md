@@ -19,6 +19,8 @@ Please read the following sections if you are registered for PSY 390:
 - **Most importantly, if there’s an issue or mistake, contact us right away! Mistakes happen and that is understandable, but we need to know about them as soon as possible.**
 
 Please read the following section if you are registered for PSY 391 / PSY 498:
+
 In addition to everything in the section above, you are also expected to:
+
 - **Document the decisions we have made while designing the experiment.** Some decisions about the study design need to be made before data collection (e.g., the target sample size, exclusion criteria, main dependent variable and scoring methods, etc.). While we are not entirely bound by those decisions, any modification made after data collection begins needs to be disclosed and justified.
 - **Double-check and triple-check your programming code, analysis scripts and files and the statistics in your thesis.** We will talk about how to insert those checks!
