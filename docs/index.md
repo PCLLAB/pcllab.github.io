@@ -21,14 +21,13 @@ hide:
   <h2 style="font-size:2rem;font-weight:300">Recent Publications</h2>
 </div>
 
-- Leonard, L. B., Deevy, P., Christ, S. L., Karpicke, J. D., Kueser, J. B., & Fischer K. (in press). Learning verbs in sentences: Children with developmental language disorder and the role of retrieval practice. _Journal of Speech, Language, and Hearing Research._ 
+- Karpicke, J. D. (2025). Retrieval-based learning. In J. Wixted (Ed.), _Learning and memory: A comprehensive reference, Third Edition_ (Vol. 4, pp. 411-441). UK: Elsevier. <br> [[PDF]](downloads/2025/2025_Karpicke_Retrieval_Based_Learning_Review.pdf){target="\_blank" rel="noreferrer"}
 
-- Martella, A. M., Schneider, D. W., O'Day, G. M., & Karpicke, J. D., (in press). Investigating the intensity and integration of active learning and lecture. _Journal of Applied Research in Memory and Cognition._ <br> [[PDF]](downloads/inpress_Martella_et_al_JARMAC.pdf){target="\_blank" rel="noreferrer"}
+- Fordyce, A. L., Redick, T. S., Bedwell, J. P., & Karpicke, J. D. (2025). Individual differences in working memory and the benefit of retrieval practice. _Journal of Memory and Language, 144_, 104664. <br> [[PDF]](downloads/2025/2025_Fordyce_et_al_JML.pdf){target="\_blank" rel="noreferrer"}
+
+- Souto, S., Leonard, L. B., Deevy, P., Christ, S. L., Karpicke, J. D., & Shroeder, M. L. (2025). Word learning in children with developmental language disorder: The use of retrieval practice during shared book reading. _Journal of Speech, Language, and Hearing Research._ <br> [[PDF]](downloads/2025/2025_Souto_et_al_JSLHR_Book_Reading.pdf){target="\_blank" rel="noreferrer"}
 
 - Karpicke, J. D., & O'Day, G. M. (2024). Elements of effective learning. In M. J. Kahana & A. D. Wagner (Eds.), _Oxford Handbook of Human Memory, Volume II: Applications_ (pp. 2035-2059). Oxford University Press. <br> [[PDF]](downloads/2024/2024_Karpicke_ODay_Oxford_Handbook.pdf){target="\_blank" rel="noreferrer"}
 
-- Leonard, L. B., Christ, S. L., Deevy, P., Karpicke, J. D., & Kueser, J. B. (2024). Retrieval practice and word learning by children with developmental language disorder: Does expanding retrieval provide additional benefit? _Journal of Speech, Language, and Hearing Research, 67._, 1530-1547. <br> [[PDF]](downloads/2024/2024_Leonard_et_al_JSLHR_Expanding_Retrieval.pdf){target="\_blank" rel="noreferrer"}
-
-- Leonard, L. B., Deevy, P., Horvath, S., Christ, S. L., Karpicke, J. D., & Kueser, J. B. (2023). Can retrieval practice facilitate verb learning in children with developmental language disorder and their peers with typical language development? _Journal of Speech, Language, and Hearing Research, 66_, 1309-1333. <br> [[PDF]](downloads/2023/2023_Leonard_et_al_JSLHR.pdf){target="\_blank" rel="noreferrer"}
 
 <div style="text-align: center; margin-bottom: 4rem; font-size:1rem; font-weight:300;"><a href="./publications/">See all publications</a></div>
