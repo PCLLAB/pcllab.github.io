@@ -13,6 +13,6 @@ hide:
 
 ## Using Outlook Calendars to Reserve Rooms
 
-- There are Outlook calendars for our three lab testing rooms (PRCE 181, 182, & 183) and one for our lab’s use of the shared testing room (PSY 3132). Contact the Lab Manager to be granted access to these Outlook calendars.  The shared testing room (PSY 3132) has to be reserved via the lab manager.
+- There are Outlook calendars for our three lab testing rooms (PRCE 181, 182, & 183) and one for our lab’s use of the shared testing room (PSY 3132). Contact the Lab Manager to be granted access to these Outlook calendars.  The shared testing room (PSY 3132) has to be reserved via the Lab Manager.
 - To sign out a room, click on the calendar for the room you plan to use and reserve it for the date/time(s) you need. Make sure no one has signed out the room already. Then, create an event by clicking on the start time and dragging until the finish time (of the day you are reserving the room during). Label the event with your name followed by the Sona number (e.g., "Brie - #692 Part 1"). Before clicking "save", make sure to select the correct room calendar from the dropdown list.
 - Only sign out testing rooms if you will actually use the room to run an experiment. Do not sign out testing rooms more than 2 weeks in advance of when you will be using them. If you no longer need a time slot, promptly delete it from the Google calendar. Make sure to delete all time slots you do not need (e.g., both sessions of a 2-session experiment).
