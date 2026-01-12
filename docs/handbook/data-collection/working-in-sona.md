@@ -13,7 +13,7 @@ This page describes key things to know about working in [Sona](https://purdue-ps
 
 ## Posting Timeslots
 
-* Before posting timeslots in Sona, you must reserve a testing room using the [Google Calendar](https://calendar.google.com){target="_blank" rel="noreferrer"} for that room. (If you are using the shared testing room, PSY 3132, you will also need to sign out that room on the department’s room reservation schedule.) See the section [Using Google Calendars to Reserve Rooms](https://pcllab.github.io/handbook/lab-policies/lab-rooms/). 
+* Before posting timeslots in Sona, you must reserve a testing room using the Outlook Calendar for that room. (If you are using the shared testing room, PSY 3132, you will also need to sign out that room on the department’s room reservation schedule.) See the section [Using Outlook Calendars to Reserve Rooms](https://pcllab.github.io/handbook/lab-policies/lab-rooms/). 
 * You should post timeslots one week in advance of when they will occur. If you are posting timeslots for next week, those timeslots should be posted by Wednesday of this week at the latest. 
 * To post timeslots, log in to [Sona](https://purdue-psych.sona-systems.com){target="_blank" rel="noreferrer"} using the username and password sent to your by the Sona Coordinator (I strongly suggest changing the password to something you will remember).
 * You can then click “My Studies” on the top menu, or click “View, add or edit timeslots” in the “My Studies” section of the page.
