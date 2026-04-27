@@ -31,7 +31,7 @@ ${completion_code}
 ```js
 let myData = jsPsych.data.dataAsJSON(); // Data for the experiment
 $.ajax(
-    "https://jarvis.psych.purdue.edu/api/v1/experiments/data/63d6993fefcff46cd8bf2d6c",
+    "https://jarvis.psych.purdue.edu/api/v1/experiments/data/123abc",
     {
     data: myData,
     contentType: "application/json",

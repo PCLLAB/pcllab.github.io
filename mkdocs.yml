@@ -116,4 +116,4 @@ nav:
       - Misc:
           - handbook/misc/mkdocs-customizations.md
           - handbook/misc/plugin-development.md
-          - handbook/misc/server.md
+          # - handbook/misc/server.md 

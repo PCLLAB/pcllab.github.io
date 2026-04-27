@@ -291,7 +291,7 @@ class Experiment {
 
         const myData = jsPsych.data.dataAsJSON(); // Data for the experiment
         $.ajax(
-          "https://jarvis.psych.purdue.edu/api/v1/experiments/data/6fakecf1b03bbc736b3f18a3",
+          "https://jarvis.psych.purdue.edu/api/v1/experiments/data/123abc",
           {
             data: myData,
             contentType: "application/json",

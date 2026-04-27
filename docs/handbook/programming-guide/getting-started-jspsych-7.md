@@ -359,7 +359,7 @@ const jsPsych = initJsPsych({
   on_finish: async () => {
     console.log(jsPsych.data.get().json());
     await fetch(
-      "https://jarvis.psych.purdue.edu/beta/api/v2/experiments/61fa32135db16e3e8a9ae5fb/data",
+      "https://jarvis.psych.purdue.edu/beta/api/v2/experiments/123abc/data",
       {
         method: "POST",
         headers: {
@@ -445,7 +445,7 @@ const jsPsych = initJsPsych({
   on_finish: async () => {
     console.log(jsPsych.data.get().json());
     await fetch(
-      "https://jarvis.psych.purdue.edu/beta/api/v2/experiments/61fa32135db16e3e8a9ae5fb/data",
+      "https://jarvis.psych.purdue.edu/beta/api/v2/experiments/123abc/data",
       {
         method: "POST",
         headers: {
