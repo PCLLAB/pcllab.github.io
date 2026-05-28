@@ -32,7 +32,7 @@ A complete list of department staff members can be found [here](https://hhs.purd
 
 | Name                  | Position/Role                      | Email                     | Office 
 | :---------------------| :--------------------------------- |:------------------------- |:-----------
-| Nancy O'Brien         | Graduate Program Coordinator       | <nobrien@purdue.edu>      | PRCE 385B
+| Kimberly Haskett         | Graduate Program Coordinator       | <khaskett@purdue.edu>      | PRCE 385B
 | Laurie Hitze          | Scheduling, IRB, PSY 120 Pool      | <llhitze@purdue.edu>      | PRCE 385G   
 | Sharon Franks         | Assistant to the Department Head   | <sfranks@purdue.edu>      | PRCE 389   
 | John Gentry           | Building Deputy                    | <jwgentry@purdue.edu>     | PRCE 385E
