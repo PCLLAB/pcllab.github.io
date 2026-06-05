@@ -1,14 +1,15 @@
-# MTurk
+# MTurk and Prolific
 
 ## Overview 
 
-[Amazon Mechanical Turk (MTurk)](https://www.mturk.com){target="_blank" rel="noreferrer"} is an online marketplace that can be used to collect data online quickly and cheaply by setting up HITs (Human Intelligence Tasks) that people can complete online. To manage and run MTurk experiments, we use [CloudResearch](https://www.cloudresearch.com/){target="_blank" rel="noreferrer"}, a third-party website that provides a user-friendly interface and useful features.
+[Amazon Mechanical Turk (MTurk)](https://www.mturk.com){target="_blank" rel="noreferrer"} and [Prolific](https://www.prolific.com/){target="_blank" rel="noreferrer"} are online crowdsourcing platforms used to collect data online quickly and cheaply by setting up HITs (Human Intelligence Tasks) that people can complete online. To manage and run MTurk experiments, we use [CloudResearch](https://www.cloudresearch.com/){target="_blank" rel="noreferrer"}, a third-party website that provides a user-friendly interface and useful features.
 
 ## Links
 
+* Prolific: <https://auth.prolific.com/u/login>{target="_blank" rel="noreferrer"}
+
 * CloudResearch: <https://account.cloudresearch.com/Account/Login>{target="_blank" rel="noreferrer"}
 * Amazon Mechanical Turk: <https://www.mturk.com>{target="_blank" rel="noreferrer"}
-
 * Note: Our lab's ID is A2Z7DRFCANJ7P
 
 * Other Links:
@@ -16,15 +17,18 @@
   - TurkerView: <https://turkerview.com/>{target="_blank" rel="noreferrer"}
   - Resources and Information: <https://journals.sagepub.com/doi/full/10.1177/0149206320969787>{target="_blank" rel="noreferrer"}
 
-## Preparing your Experiment for MTurk 
+## Preparing your Experiment for MTurk/Prolific 
 
-* Experiment link: You will need to create a link for your web-based experiment (use [Jarvis](https://jarvis.psych.purdue.edu/){arget="_blank" rel="noreferrer"}). MTurk workers (called Turkers) will use the link to complete your experiment.
+* Experiment link: You will need to create a link for your web-based experiment (use [Jarvis](https://jarvis.psych.purdue.edu/){arget="_blank" rel="noreferrer"}). Subjects will use the link to complete your experiment.
 
-* Save participant ID: You will need to record each participants "workerId" (This will let you match a person to their completion code and/or verify that someone who contacts you actually complete the HIT). Cloud Research (formerly Turk Prime) automatically inserts query data into the URL. The following code gets that data and adds it to the to-be-saved data.
+* Save participant ID: You will need to record each participants "workerId" (This will let you match a person to their completion code and/or verify that someone who contacts you actually complete the HIT). Both sites automatically insert query data into the URL. The following code gets that data and adds it to the to-be-saved data.
 
 ```javascript
-// get workerId from URL
+// get MTurk ID from URL
 Var subNum = jsPsych.data.getURLVariable(“workerId”)
+// get Prolific ID from URL
+Var subNum = jsPsych.data.getURLVariable(“PROLIFIC_PID”)
+
 
 // add subject to data
 jsPsych.data.addProperties({
@@ -32,7 +36,18 @@ jsPsych.data.addProperties({
 })
 ``` 
 
-* Completion code: Your experiment should include a unique randomly generated code for each participant (turker). They will enter this code on MTurk to prove they actually completed the experiment. This code should be displayed at the end of the experiment, after the data has been saved (typically at the bottom of the debriefing form).
+* Completion code: Your experiment should include a unique randomly generated code for each participant. They will enter this code to prove they actually completed the experiment. This code should be displayed at the end of the experiment, after the data has been saved (typically at the bottom of the debriefing form).
+
+* Redirect URL: Prolific offers an alternative submission methods which is URL redication at the end of the experiment. The following code and be added and updated to the end of the experiment to redirect them back to Prolific at the end of the experiment.
+
+```javascript
+//adds redirect link to the bottom of the final experiment page (typically the debriefing form)
+on_finish: function(){
+  $('#jspsych-content').load('Materials/end.html', ()=> {
+    $('#jspsych-content').append("<a href=https://app.prolific.co/submissions/complete?cc=XXXXXXX"><strong><u>Please click here to return to Prolific.</u></strong></a>")
+  });
+};
+```
 
 ## Create a New Study on CloudResearch 
 
@@ -43,56 +58,56 @@ Either copy and modify a prior study (completed studies will be in the "Archived
 Then, fill out each page of the study details (see below).
 
 ### Study Details
-
-1. **Basic Info.** 
+1. **Demographic Options**
+  -Total Number of Survey Participants: The number of subjects to be run.
+  Note: Everything else can be left blank.
+2. **Basic Info.** 
   - Project Name: Give your project a name that will let you and other lab members know exactly what project this HIT belongs to (e.g., "ODay Dissertation E4" or "Delayed Self-Scoring E3). Note: this is not the name the particiants will see.
   - Email Address: Enter an email to notify you when the experiment has ran the selected number of participants. Make sure that you check this often/regularly while you are collecting data so that you can quickly respond to participants if they contact you. 
-  - Survey Hyperlink: This should be the "Experiment URL" generated by Jarvis or the "Survey Link" if you are using quotas in Jarvis.
-  - Auto-capture worker information: Choose "Yes" to have the WorkerId, hitId, and assignmentId added to the URL. Make sure that your experiment program is pulling these from the URL and saving them to the data. Note: you can opt. to use an anonymized workerId under "Additional Privacy Options".
-2.	**Describe HIT.** Describe the HIT to workers, typically generic information describing a memory experiment or decision-making task (if test is incidental). 
+  
+3.	**Describe HIT.** Describe the HIT to workers, typically generic information describing a memory experiment or decision-making task (if test is incidental). 
   - Title examples: "Memory for key-term definitions" or "Memory Experient" or "Decision-Making Task" 
   - Description example: "In this experiment you will study a list of key-term definitions. Your memory for the definitions will be tested." or "You will see words, nonwords, sentences, pictures and/or faces and will be asked to respond to them." 
-3.	**Setup HIT and Payment.** 
+4.	**Setup HIT and Payment.** 
   - Worker Payment Per Survey: The amount participants will be paid upon completion of the HIT. 
     - We used to pay subjects $0.10 per minute (e.g., $1 for 10 minutes, $2 for 20 minutes, etc.) which works out to $6 per hour. 
     - However, it is recommended that the hourly average pay be least minimum wage ($7.25 per hour) and preferably between the Federal & highest statewide (CA) minimum wages. 
-    - Note: $10 per hour seems to be acceptable to most Turkers.
+    - Note: $10 per hour seems to be acceptable to most users.
   - Expected Time To Complete Assignment: This should be your best estimate of the maximum time to complete the experiment. Note: Make this a conservative estimate because workers will be pleasantly surpised if it takes less time than anticipated but very unhappy if it goes over. 
   - Time Allotted Per Assignment: How long they have to finish the experiment once they accept the HIT. This should be 3-4 times the expected length. You do not want people to start your experiment and then take a break and come back to it later (ask them to complete the HIT in some sitting at the start), but you also do not want them to be locked out of the HIT if it took them a bit longer than expected to finish. Giving them the right sized window allows them to start once they are ready (have elimianted disctacted and prepared to finish in one sitting) while still encoraging them to finish in a timely manner. Error on the shorter side (i.e., 90 minutes for a 30 minute experiment); worst case scenario is they email you saying they finished the HIT but did not have enough time to submit their completion code and you then set up a dummmy HIT to pay them after checking for them in your data.
   - HIT Experires In: Choose how long you want to experiment to be posted for. I usually choose 1 week, but it never takes that long.
-  - Batching Options: Choose "HyperBatch" this will create multiple smaller (n = 9) HITs which will lower the MTurk fee. ("MicroBatch" is similar but will take longer because the HITs are posted squentially rather than simultaneously)
+  - Survey Hyperlink: This should be the "Experiment URL" generated by Jarvis or the "Survey Link" if you are using quotas in Jarvis.
   - Additional HIT Options: 
     - Select all EXCEPT "Display the Median Hourly Rate" (Because the median time is usually longer than the actual time spent completing the experiment this rate can be misleading) and "Do you want to automatically bonus all workers in your study?". 
-  - Set "Location Requirements" to "must be from United States". 
-4. **Demographics.**
-  - Number of Survey Paricipants: Enter the number of subjects you want to participate. 
-  - Choose Demographics: Leave blank; these cost extra.
-  - Enter the link to your experiment on this tab!
-  - Check the box for displaying the HIT (experiment) to only workers that qualify. The final two boxes are a matter of preference.
-5. **Data Quality**
-  - Select "CloudReseach Approved Participants" and ALL options under "Additional Data Quality Settings"
-6.	**How Workers are Approved.** 
+5.	**How Workers are Approved.** 
   - Select option to "Manually" approve HITs. It is good practice to manually approve workers as one person could send the completion code to their friends, who would enter the code but not complete the experiment (their ID would not be in your data).
   - Select "Custom Completion Code"
   - Autopay Workers In: Set time frame for when participants will be automatically paid if not manually approved/rejected. Have this be less than 30 days; I suggest 7 days because you will be approving/rejecting everyone within 24 hours and Turkers are reluctant to participate if they think they might have to wait very long to be paid.
-7.	**Worker Requirements.** 
+6.	**Worker Requirements.** 
   - Choose to exclude workers who are not eligible for this experiment. 
     Exclude workers who complete these surveys: Use this to exclude pariticipants who already a completed similar experiment. For example, an prior experiment in the same line (i.e., exclude anyone who did E1 from doing E2) or an experiment that used the same stimuli. Select them from the drop-down list.
-    - Super Exclude: Select this option! It will exclude participants who started one of those HITs, even if they didn't finish it.
-    - Survery Group: Lets you group experiments together such that workers can only participate/start one from that group. This is a newer feature that we can use moving forward to group experiments by line such that one person can only participate once for that set of experiment.
-    - Worker Group: Is similar to "Survey Group" but you can use to either include of exclude across experiments. This could be used to make sure that a worker who has already learned Lithuanian-English translations in one experiment isn't allowed to participate in future experiments (even if from a different line/procedure) that include that type of stimuli.
-    - Naivete: Leave blank
+    - Super Exclude: Select this option! It will exclude participants who started one of those HITs, even if they didn't finish it.    
   - Alternatively, you can choose to include only certain workers. For example, only people who completed part one of a two-part experiment. Note: if you have to set up a dummy HIT to pay a participant who finished an experiment but wasn't paid by MTurk, restrict that HIT to only include that person's ID.
-  - Worker Qualification: Select "Yes"
+  - Worker Qualification: 
     - HIT Approval Rating = 95-100% 
-    - Number of HITs Approved= 1,000 - 1 million
-8.	**Save.** Saves the changes you made to these tabs, but does not post the experiment to MTurk.
+    - Number of HITs Approved = 1,000 - 1 million
+    - Location =  "is one of" - United States
+  - Group Requirements
+    - Worker Group: Lets you group experiments together such that workers can only participate/start one from that group. This is a newer feature that we can use moving forward to group experiments by line such that one person can only participate once for that set of experiment.
+  - Naivete: Leave blank
+7. **Data Quality**
+  - Select "CloudReseach Approved Participants" and ALL options under "Additional Data Quality Settings"
+  - Advanced Settings: Select all
+8. **Additional Options**  
+  - Batching Options: Choose "HyperBatch" this will create multiple smaller (n = 9) HITs which will lower the MTurk fee. ("MicroBatch" is similar but will take longer because the HITs are posted squentially rather than simultaneously)
+  - Anonoymize Worker IDs: Select this option to record CloudResearch Worker IDs which are anonomyized (unlike Amazon's Worker IDs)
+  - Survey Group: Group experiments together such that workers can only participate/start one from that group.
+9.	**Save.** Saves the changes you made to these tabs, but does not post the experiment to MTurk.
 
-<mark>**TODO: IS THE FOLLOWING STATEMENT CORRECT?**</mark> 
+To launch an experiment go to dashboard and click the launch button.
 
-To launch an experiment go to dashboard and click the green launch button.
-
-<mark>**TODO: Create a new section: Setting up multi-session studies**</mark>
+<mark>**TODO: Create a new section: Setting up multi-session studies with notes about changes to above for each part of multi-part study**</mark>
+<mark>**TODO: Create a new section: Setting up Prolific Study**</mark>
 
 ## Approving Workers
 

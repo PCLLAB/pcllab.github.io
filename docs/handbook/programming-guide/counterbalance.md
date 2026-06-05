@@ -2,7 +2,7 @@
 
 Sometimes (especially with in-person experiments) participants will be assigned to conditions by the experimenter. Other times, we will have the program randomly assign participants to conditions. 
 
-## If-else
+# If-else
 
 Regardless of how participants are assigned to conditions, the program will need to present different stimuli/materials/tasks depending on what condition(s) that participant was assigned to. You can do this by using if-then or if-else logic.
 

@@ -21,13 +21,11 @@ Every year, I am required to submit a count of the number of subjects tested dur
 
 Use the table below to determine which IRB protocol you should use for your project. If you have questions, ask Jeff.
 
-| Type of Study                    | Protocol Number | Protocol Title                                                     | Admin Check-In |
-| :------------------------------- | :-------------- | :----------------------------------------------------------------- | :------------- |
-| PSY 120 - In Lab                 | 1007009512      | "Memory and Metacognition"                                         | 2024-10-05     |
-| PSY 120 - Online                 | 1601017062      | "Online Learning and Memory Research - PSY 120"                    | 2025-07-21     |
-| Paid - Amazon eGift card or cash | 1207012513      | "Retrieval-Enhanced Learning of Foundational Conceptual Knowledge" | 2025-01-02     |
-| MTurk                            | 1305013648      | "Online Learning and Memory Research"                              | 2025-07-27     |
-| Children                         | 1404014764      | "Computer-Based Guided Retrieval Practice for Elementary Children" | 2025-07-21     |
+| Type of Study                    | Protocol Number | Protocol Title                                                     | 
+| :------------------------------- | :-------------- | :----------------------------------------------------------------- | 
+| PSY 120 - In Lab and Online      | 2026-00000059   | "Memory and Metacognition"                                         | 
+| MTurk and Prolific               | 2026-00000525   | "Online Learning and Memory Research"                              | 
+
 
 ## Where to Find Lab IRB documents
 

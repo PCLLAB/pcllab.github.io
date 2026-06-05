@@ -5,8 +5,6 @@ hide:
 
 # Jarvis
 
-<mark>TODO: Create more detailed instructions for folder structures on Jarvis and include instructions for how to use Jarvis for experiments including how to use it to counterbalance conditions</mark>
-
 This section contains information about how to connect to and use to Jarvis, our server for hosting experiments and collecting data.
 
 ## Connect to Jarvis
@@ -41,4 +39,8 @@ Once you are connected to Jarvis:
 The other way to connect to Jarvis is via the Jarvis front-end interface. This will allow you to monitor and manage data files, including downloading your data. To access the Jarvis interface:
 
 * Go to <https://jarvis.psych.purdue.edu>{target="_blank" rel="noreferrer"} and log in. You will need to get a username and password from someone in the lab. 
-* On Jarvis, you can create a new experiment on the database, generate a code snippet in order to write data to the experiment on the database, and download data from the database.
+* On Jarvis, you can create a new experiment on the database, generate a code snippet in order to write data to the experiment on the database, and download data from the database. Use the following organizational structure for creating experiment folders and saving experiments:
+  - Create a folder with your last name (or the senior student who's project the experiment belongs to)
+  - Create a subfolder with the name of the project/experiment line
+  - Create an experiment in that folder and name it with the exeriment number and/or a brief description (e.g., "Cue-Overload E1" or "Generation and Pretesting - Free Recall")
+* After you have created an experiment, you can use the counterbalancing and quota functions to have Jarvis assign subjects to versions/counterbalances and keep track of how many have been run in each. 
