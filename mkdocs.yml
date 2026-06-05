@@ -79,7 +79,7 @@ nav:
           - Posting Timeslots in Sona: handbook/data-collection/working-in-sona.md
           - Running Sona Experiments: handbook/data-collection/checklist.md
           - Awarding Credits in Sona: handbook/data-collection/awarding-credits.md
-          - MTurk: handbook/data-collection/mturk.md
+          - MTurk and Prolific: handbook/data-collection/mturk.md
           #- MTurk Calculator: handbook/data-collection/mturk-calculator.md
       - Scanning and Archiving: handbook/scanning.md
       - Lab Connections and Servers:
@@ -93,12 +93,12 @@ nav:
           - Getting Started w/ jsPsych7: handbook/programming-guide/getting-started-jspsych-7.md
           - Convering plugin to jsPsych7: handbook/programming-guide/converting-plugins.md
           - Basic Experiment Structure: handbook/programming-guide/basic-experiment-structure.md
-          - Versions and Counterbalences: handbook/programming-guide/counterbalence.md
+          - Versions and Counterbalancing: handbook/programming-guide/counterbalance.md
           - Starting Experiments: handbook/programming-guide/starting.md
           - Materials: handbook/programming-guide/materials.md
           - Timeline: handbook/programming-guide/timeline.md
           - Present Stimuli: handbook/programming-guide/study-list.md
-          - Distractor Tasks: handbook/programming-guide/distractor.md
+          # - Distractor Tasks: handbook/programming-guide/distractor.md
           - Free Recall: handbook/programming-guide/free-recall.md
           - Cued Recall: handbook/programming-guide/cued-recall.md
           - Saving Data: handbook/programming-guide/saving-data.md
