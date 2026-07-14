@@ -85,7 +85,7 @@ nav:
       - Lab Connections and Servers:
           - Set up a VPN: handbook/connections-servers/VPN.md
         #  - Learning Lab Box: handbook/connections-servers/learninglab-shared.md
-          - Jarvis: handbook/connections-servers/jarvis.md
+        #  - Jarvis: handbook/connections-servers/jarvis.md
       - Web Programming Guide:
           - Necessary Programs: handbook/programming-guide/programs.md
           - Repositories: handbook/programming-guide/repositories.md
