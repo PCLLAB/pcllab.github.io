@@ -1,0 +1,79 @@
+body.handbook-locked > *:not(#handbook-login) {
+    display: none !important;
+}
+
+#handbook-login {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffffff;
+    padding: 20px;
+}
+
+.handbook-login-box {
+    width: 100%;
+    max-width: 420px;
+
+    text-align: center;
+    padding: 40px;
+
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+
+    background: white;
+}
+
+.handbook-login-box h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.handbook-login-box p {
+    margin-bottom: 25px;
+}
+
+#handbook-password {
+    box-sizing: border-box;
+    width: 100%;
+
+    padding: 12px;
+    margin-bottom: 15px;
+
+    font-size: 16px;
+
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+}
+
+#handbook-login-form button {
+    width: 100%;
+
+    padding: 12px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 4px;
+
+    background: #000000;
+    color: #ffffff;
+}
+
+#handbook-login-form button:hover {
+    opacity: 0.85;
+}
+
+#handbook-login-error {
+    margin-top: 15px;
+    margin-bottom: 0;
+
+    color: #b00020;
+}
