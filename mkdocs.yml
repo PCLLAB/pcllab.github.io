@@ -17,8 +17,10 @@ extra_css:
   - css/header.css
   - css/footer.css
   - css/sidebars.css
+  - css/handbook-auth.css
 extra_javascript:
   - js/header.js
+  - js/handbook-auth.js
 
 markdown_extensions:
   - mdx_truly_sane_lists

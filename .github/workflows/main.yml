@@ -4,15 +4,29 @@ on:
   push:
     branches:
       - master
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
+
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
+
       - run: pip install git+https://github.com/PCLLAB/mkdocs-material
+
       - run: pip install git+https://github.com/fralau/mkdocs_macros_plugin@f07146bbc3d317db38b903c4c282315682ccfd31
+
       - run: pip install git+https://github.com/radude/mdx_truly_sane_lists
+
+      - name: Prepare handbook authentication
+        env:
+          HANDBOOK_PASSWORD: ${{ secrets.HANDBOOK_PASSWORD }}
+        run: |
+          PASSWORD_HASH=$(printf '%s' "$HANDBOOK_PASSWORD" | sha256sum | cut -d ' ' -f 1)
+          sed -i "s/__HANDBOOK_PASSWORD_HASH__/$PASSWORD_HASH/g" docs/js/handbook-auth.js
+
       - run: mkdocs gh-deploy --force
