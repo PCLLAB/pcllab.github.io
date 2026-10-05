@@ -33,6 +33,9 @@
     flex-direction: row;
   }
   .people-img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
     margin-right: 1rem;
   }
 }
