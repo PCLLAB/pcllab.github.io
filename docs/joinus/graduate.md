@@ -11,7 +11,7 @@ Thank you for your interest in graduate studies in our laboratory. Here are answ
 
 Q: Are you recruiting this year?
 
-A: Yes, we are recruiting a new student for Fall 2025 (applications due December 1st 2024).
+A: Yes, we may be recruiting a new student for Fall 2027. The application due date is December 1, 2026.
 <br><br>
 
 Q: What are you looking for in a graduate applicant?
@@ -46,5 +46,5 @@ A: No, I'm unable to review your materials before you apply.
 
 Q: Where can I learn more about the graduate program?
 
-A: Here are links to the [Psychological Sciences Department](https://hhs.purdue.edu/psy/){target="\_blank" rel="noreferrer"} and the [Cognitive Psychology graduate program](https://www.purdue.edu/hhs/psy/graduate/graduate_training_areas/cognitive_psychology/index.html){target="\_blank" rel="noreferrer"}.
-<br><br>
+A: Here are links to the [Psychological Sciences Department](https://hhs.purdue.edu/psy/){target="\_blank" rel="noreferrer"} and the [Cognitive Psychology graduate program](https://hhs.purdue.edu/graduate-programs/cognitive-psychology/){target="\_blank" rel="noreferrer"}.
+<br><br> 
