@@ -37,7 +37,7 @@ hide:
     <img src="../img/coverdale.jpg" class="people-img">
     <div>
     <h2>Michelle E. Coverdale</h2>
-    <h4>Postdoctoral Research Associate</h4>
+    <h4>Research Scientist</h4>
     <p>I'm interested in the studying effects of choices on memory and in applying basic memory research to understaning and improving learning and memory in educational settings. </p>
     </div>
 </div>
@@ -50,6 +50,15 @@ hide:
     <p>My research interest focuses on applying cognitive psychology to teaching and learning. More specifically, I’m interested in the effects of different learning strategies and criterion tasks on memory, mind-wandering and metacognition. Although my past research experience has been mainly in the field of reading comprehension, I’m interested in learning using a variety of materials and tasks. </p>
     </div>
 </div>
+
+<!-- <div class="people-row">
+    <img src="../img/delawter.jpeg" class="people-img">
+    <div>
+    <h2>Alana DeLawter</h2>
+    <h4>Graduate Student</h4>
+    <p> </p>
+    </div>
+</div> -->
 
 <div class="people-row">
     <img src="../img/pastrana.jpg" class="people-img">
@@ -71,7 +80,7 @@ hide:
 </div>
 
 <div class="people-row">
-    <img src="../img/Shivanya.jpeg" class="people-img">
+    <img src="../img/shivanya.jpg" class="people-img">
     <div>
     <h2>Shivanya Chandra</h2>
     <h4>Programmer</h4>
@@ -85,57 +94,57 @@ hide:
 ## Lab Alumni
 
 [Garrett O'Day](https://www.linkedin.com/in/garrett-oday/){target="\_blank" rel="noreferrer"}<br>
-Senior Manager, Research <br>
-Active Minds <br>
+User Experience Researcher <br>
+Logitech <br>
 Ph.D. Student (2016-2022)<br>
 
-[Amedee Martella](https://mayerlab.psych.ucsb.edu/people/amedee-martella){target="\_blank" rel="noreferrer"}<br>
+[Amedee Marchand Martella](https://people.coe.uga.edu/amedee-marchand-martella/){target="\_blank" rel="noreferrer"}<br>
 Assistant Professor<br>
 University of Georgia<br>
 Ph.D. Student (2019-2022)<br>
 
-[Caroline Byrd Hornburg](https://sites.google.com/view/caroline-byrd-hornburg){target="\_blank" rel="noreferrer"}<br>
-Assistant Professor<br>
+[Caroline Byrd Hornburg](https://liberalarts.vt.edu/departments-and-schools/department-of-human-development-and-family-science/faculty/caroline-hornburg.html){target="\_blank" rel="noreferrer"}<br>
+Associate Professor, Director of Undergraduate Studies<br>
 Virginia Tech<br>
 Postdoctoral Research Associate (2017-2019)<br>
 
 [Robert Ariel](https://sites.google.com/view/robert-ariel){target="\_blank" rel="noreferrer"}<br>
 Associate Professor<br>
-Virginia Wesleyan University<br>
+Batten University<br>
 Postdoctoral Research Associate (2015-2018)<br>
 
 [William Aue](https://www.linkedin.com/in/william-aue){target="\_blank" rel="noreferrer"}<br>
-Research Psychologist<br>
+Senior Cognitive Neuroscientist<br>
 Air Force Research Laboratory<br>
 Postdoctoral Research Associate (2014-2018)<br>
 
-**Joseph Bedwell**<br>
-User Experience Researcher<br>
-Indeed.com<br>
+[Joseph Bedwell](https://www.linkedin.com/in/joey-bedwell-4b39119a/){target="\_blank" rel="noreferrer"}<br>
+Senior Researcher<br>
+Blink UX<br>
 M.S. Student (2016-2018)<br>
 
-**Ludmila Nunes**<br>
-Senior Director for Science Knowledge and Expertise<br>
+[Ludmila Nunes](https://www.linkedin.com/in/ludmila-nunes/){target="\_blank" rel="noreferrer"}<br>
+Senior Director for Science, Knowledge, Expertise, and Innovation<br>
 American Psychological Association<br>
 Postdoctoral Research Associate (2013-2016)<br>
 
-[Joshua Whiffen](https://www.linkedin.com/in/joshua-whiffen-230618122){target="\_blank" rel="noreferrer"}<br>
-Data Analytics Lead - User Experience<br>
+[Joshua Whiffen](https://www.linkedin.com/in/josh-whiffen-230618122/){target="\_blank" rel="noreferrer"}<br>
+Staff Data Engineer<br>
 Genesys<br>
 M.S. Student (2012-2016)<br>
 
-[Janell Blunt](https://anderson.edu/staff/dr-janell-blunt/){target="\_blank" rel="noreferrer"}<br>
-Assistant Professor<br>
+[Janell Blunt](https://www.linkedin.com/in/janellblunt/){target="\_blank" rel="noreferrer"}<br>
+Associate Professor<br>
 Anderson University<br>
 Ph.D. Student (2011-2015)<br>
 
-[Megan Sumeracki](https://www.ric.edu/people-directory/megan-sumeracki){target="\_blank" rel="noreferrer"}<br>
+[Megan A. Sumeracki](https://www.ric.edu/people-directory/megan-sumeracki){target="\_blank" rel="noreferrer"}<br>
 Professor<br>
 Rhode Island College<br>
 Ph.D. Student (2011-2014)<br>
 
 [Melissa Lehman](https://www.lynn.edu/campus-directory/melissa-lehman){target="\_blank" rel="noreferrer"}<br>
-Associate Professor<br>
+Professor<br>
 Lynn University<br>
 Postdoctoral Research Associate (2011-2014)<br>
 
