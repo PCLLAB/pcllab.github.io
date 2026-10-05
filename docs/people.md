@@ -104,7 +104,7 @@ University of Georgia<br>
 Ph.D. Student (2019-2022)<br>
 
 [Caroline Byrd Hornburg](https://liberalarts.vt.edu/departments-and-schools/department-of-human-development-and-family-science/faculty/caroline-hornburg.html){target="\_blank" rel="noreferrer"}<br>
-Associate Professor, Director of Undergraduate Studies<br>
+Associate Professor<br>
 Virginia Tech<br>
 Postdoctoral Research Associate (2017-2019)<br>
 
