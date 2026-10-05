@@ -51,14 +51,14 @@ hide:
     </div>
 </div>
 
-<!-- <div class="people-row">
+<div class="people-row">
     <img src="../img/delawter.jpeg" class="people-img">
     <div>
     <h2>Alana DeLawter</h2>
     <h4>Graduate Student</h4>
-    <p> </p>
+    <p>My research interests are focused on understanding and improving memory and learning. Particularly, I want to know the most effective and efficient ways we can boost long-term retention of learned information, and what makes these strategies so effective. </p>
     </div>
-</div> -->
+</div>
 
 <div class="people-row">
     <img src="../img/pastrana.jpg" class="people-img">
