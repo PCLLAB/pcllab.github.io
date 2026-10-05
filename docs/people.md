@@ -80,7 +80,7 @@ hide:
 </div>
 
 <div class="people-row">
-    <img src="C:\MAMP\htdocs\pcllab.github.io\docs\img\shivanya.jpg" class="people-img">
+    <img src="../img/shivanya.jpg" class="people-img">
     <div>
     <h2>Shivanya Chandra</h2>
     <h4>Programmer</h4>
